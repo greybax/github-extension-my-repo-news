@@ -9,3 +9,7 @@ If you news thread updates pretty often, but you would like don't miss any actio
 
 **After:**
 ![after](images/after.png);
+
+## License
+
+MIT © [Aleksandr Filatov](https://alfilatov.com)

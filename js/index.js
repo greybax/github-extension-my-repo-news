@@ -4,12 +4,11 @@ const highlightMyNews = () => {
 
   let alertArray = document
     .getElementsByClassName('news')[0]
-    .getElementsByClassName('alert');
+    .getElementsByClassName('body');
 
   for (alert of alertArray) {
-    alert = alert.getElementsByClassName('title')[0];
-    alert.outerText.match(regex)
-      ? alert.style.fontWeight = 'bold' : '';
+    alert.innerText.match(regex)
+      ? alert.style.background = '#f6f8fa' : '';
   }
 };
 

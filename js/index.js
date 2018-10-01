@@ -8,7 +8,7 @@ const highlightMyNews = () => {
 
   for (alert of alertArray) {
     alert.innerText.match(regex)
-      ? alert.style.background = '#f6f8fa' : '';
+      ? alert.style.background = '#E5E5E5' : '';
   }
 };
 
